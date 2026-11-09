@@ -1,6 +1,6 @@
 /**
- * MacPDF Studio - Core Offline PDF Engine
- * Optimized for Apple Silicon (MacBook Air M5, 13.6-inch Retina)
+ * Omen PDF - Offline PDF Engine
+ * Created by Shubham Chudasma
  * 100% Client-Side & Zero-Telemetry Privacy
  */
 
@@ -489,8 +489,8 @@ async function runCompression() {
       srcDoc.setTitle('');
       srcDoc.setAuthor('');
       srcDoc.setSubject('');
-      srcDoc.setProducer('MacPDF Studio');
-      srcDoc.setCreator('MacPDF Studio (M5 Apple Silicon)');
+      srcDoc.setProducer('Omen PDF');
+      srcDoc.setCreator('Omen PDF by Shubham Chudasma');
 
       finalPdfBytes = await srcDoc.save({ useObjectStreams: true, addDefaultPage: false });
       progressBar.style.width = '100%';
@@ -2160,5 +2160,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  console.log('MacPDF Studio initialized. Apple Silicon (M5) ready.');
+  console.log('Omen PDF initialized. Created by Shubham Chudasma.');
 });

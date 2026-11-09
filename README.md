@@ -1,6 +1,6 @@
-# MacPDF Studio (M5 Apple Silicon Edition)
+# Omen PDF
 
-A high-performance, **100% offline**, privacy-focused PDF Suite designed specifically for **macOS & MacBook Air M5 (13.6-inch Liquid Retina Display)**.
+A high-performance, **100% offline**, privacy-focused PDF Suite created by **Shubham Chudasma**.
 
 ---
 
@@ -8,9 +8,9 @@ A high-performance, **100% offline**, privacy-focused PDF Suite designed specifi
 
 1. **Offline PDF Compressor (with 11zon-Style Size Bar & Tenant Registration Mode)**:
    - **Target Exact Size (e.g. 500 KB)**: Specifically engineered for **Tenant Registration**, Police Verification, and Government portal uploads that enforce strict `< 500 KB` file size limits.
-   - **Intelligent Quality Optimization**: The Apple Silicon M5 engine dynamically determines the highest possible DPI and JPEG quality budget per page so your rental agreements, ID cards, and signatures remain **sharp and legible** while staying strictly under 500 KB.
+   - **Intelligent Quality Optimization**: Automatically calculates the highest possible DPI and JPEG quality budget per page so your rental agreements, ID cards, and signatures remain **sharp and legible** while staying strictly under 500 KB.
    - **High-Contrast Text Protection**: Cleans grayish background artifacts and darkens ink fonts on contracts for maximum readability.
-   - **11zon Compression Slider Bar**: Smoothly slide from 10% to 95% compression with real-time estimated output file sizes.
+   - **11zon Compression Slider Bar**: Smoothly slide from 10% to 95% compression with real-time estimated output file sizes and quick-snap notch buttons.
    - **Size Review & Verification Card**: Displays the original size, target requested, final compressed size, and space saved percentage.
    - **Instant Download & Preview**: Review your verified file size, click **Preview PDF** to check clarity, and download with the prominent green **Download Compressed PDF** button.
 
@@ -38,17 +38,21 @@ A high-performance, **100% offline**, privacy-focused PDF Suite designed specifi
 
 6. **PDF to Images**:
    - Export every page as high-resolution **PNG** or **JPEG** image files in a `.zip` archive.
-   - Selectable resolution: **Standard 1x (72 DPI)**, **Apple Retina 2x (144 DPI)**, or **Ultra High-Res 3x (300 DPI)**.
+   - Selectable resolution: **Standard 1x (72 DPI)**, **Retina 2x (144 DPI)**, or **Ultra High-Res 3x (300 DPI)**.
 
 7. **Watermark & Page Numbers**:
    - Diagonal text stamps (e.g., `CONFIDENTIAL`, `DRAFT`, `COPY`).
    - Configurable font size, color, and opacity slider.
    - Automatic bottom page numbering (`Page X of Y`).
 
+8. **Extract Text & Metadata**:
+   - Inspect PDF author, title, page dimensions, and creation date.
+   - Extract plain text across all pages with 1-click clipboard copy or `.txt` download.
+
 ---
 
 ## 🔒 100% Offline & Private
-- **Zero Cloud Uploads**: All PDF processing happens directly in your MacBook Air's RAM and Apple Silicon Neural/CPU cores.
+- **Zero Cloud Uploads**: All PDF processing happens directly in your device's memory.
 - **Zero External Telemetry**: All vendor libraries (`pdf-lib`, `pdf.js`, `jszip`) are bundled locally inside the `vendor/` directory.
 
 ---
@@ -57,13 +61,11 @@ A high-performance, **100% offline**, privacy-focused PDF Suite designed specifi
 
 You can open the app in any of the following ways:
 
-- **Option 1**: Double-click **`MacPDF Studio.app`** in Finder.
-- **Option 2**: Double-click **`Launch-MacPDF-Studio.command`**.
+- **Option 1**: Double-click **`Omen PDF.app`** (or **`MacPDF Studio.app`**) in Finder.
+- **Option 2**: Double-click **`Launch-Omen-PDF.command`**.
 - **Option 3**: Double-click **`index.html`** to open in Safari or Google Chrome.
 
 ---
 
-## ⌨️ Shortcuts
-- <kbd>Cmd</kbd> + <kbd>O</kbd>: Open file picker for the currently active tool.
-- Drag & Drop: Drag any PDF or image file directly into the app window.
-
+## 👨‍💻 Author
+**Created by Shubham Chudasma**

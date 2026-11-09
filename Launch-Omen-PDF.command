@@ -3,7 +3,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 INDEX_FILE="$DIR/index.html"
 
 echo "====================================================="
-echo "   Launching MacPDF Studio for MacBook Air M5..."
+echo "   Launching Omen PDF by Shubham Chudasma..."
 echo "====================================================="
 
 if [ -d "/Applications/Google Chrome.app" ]; then
@@ -13,4 +13,3 @@ else
 fi
 
 echo "App opened! You can close this terminal window."
-
