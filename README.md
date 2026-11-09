@@ -2,6 +2,8 @@
 
 A high-performance, **100% offline**, privacy-focused PDF Suite created by **Shubham Chudasma**.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FShankyMania%2FOMEN-PDF)
+
 ---
 
 ## ⚡ Features Included
